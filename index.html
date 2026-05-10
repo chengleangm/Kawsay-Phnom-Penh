@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kawsay Phnom Penh</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">Kawsay</div>
+  <nav id="navMenu">
+    <a href="#home">Home</a>
+    <a href="#about">Concept</a>
+    <a href="#menu">Menu</a>
+    <a href="#reserve">Reserve</a>
+  </nav>
+  <button class="menu-btn" onclick="toggleMenu()">☰</button>
+</header>
+
+<section class="hero" id="home">
+  <div class="hero-content">
+    <p class="tagline">Contemporary Dining • Phnom Penh</p>
+    <h1>A refined taste experience inspired by culture, flavor, and elegance.</h1>
+    <p>
+      Kawsay is a luxury demo restaurant concept created for Phnom Penh,
+      blending modern dining, warm atmosphere, and curated signature dishes.
+    </p>
+    <div class="hero-buttons">
+      <a href="#menu" class="btn">View Menu</a>
+      <a href="#reserve" class="btn outline">Reserve Table</a>
+    </div>
+  </div>
+</section>
+
+<section class="about reveal" id="about">
+  <div>
+    <p class="small-title">The Concept</p>
+    <h2>Minimal, elegant, and memorable.</h2>
+  </div>
+  <p>
+    Designed for a premium restaurant identity, this website presents Kawsay as
+    a modern dining destination in Phnom Penh. The atmosphere is calm, warm,
+    stylish, and perfect for customers looking for a special dinner experience.
+  </p>
+</section>
+
+<section class="menu-section reveal" id="menu">
+  <p class="small-title">Signature Menu</p>
+  <h2>Selected dishes</h2>
+
+  <div class="menu-grid">
+    <div class="menu-card">
+      <h3>Kawsay Tasting Plate</h3>
+      <p>Seasonal bites with elegant presentation.</p>
+      <span>$12</span>
+    </div>
+
+    <div class="menu-card">
+      <h3>Charcoal Grilled Beef</h3>
+      <p>Premium grilled beef with house sauce.</p>
+      <span>$18</span>
+    </div>
+
+    <div class="menu-card">
+      <h3>Fresh Seafood Pasta</h3>
+      <p>Rich seafood flavor with handmade pasta.</p>
+      <span>$15</span>
+    </div>
+
+    <div class="menu-card">
+      <h3>Golden Dessert</h3>
+      <p>Soft cream, caramel, and tropical fruit.</p>
+      <span>$8</span>
+    </div>
+  </div>
+</section>
+
+<section class="reserve reveal" id="reserve">
+  <div class="reserve-box">
+    <p class="small-title">Reservation</p>
+    <h2>Book your table</h2>
+    <p>
+      Perfect for dinner, date night, business meetings, or private celebrations.
+    </p>
+
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="tel" placeholder="Phone Number" required />
+      <input type="date" required />
+      <input type="time" required />
+      <button type="submit">Reserve Now</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <h3>Kawsay Phnom Penh</h3>
+  <p>Luxury restaurant demo website • Minimal responsive design</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
